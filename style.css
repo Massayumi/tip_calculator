@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/vista-superior-das-notas-e-calculadora-em-fundo-de-madeira_23-2148230117.jpg?t=st=1734276807~exp=1734280407~hmac=490e10aa575af540c1848ee1ed1b0af7dbc156031e8d918944d94e004cdfa9da&w=740");
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.calculator{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0, .3);
+    margin: 3rem auto;
+    max-width: 500px;
+    padding: 1.6rem;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+input, select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: .6rem;
+    width: 100%;
+    padding: .6rem;
+}
+button{
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    padding: .8rem ;
+    width: 100%;
+}
+
+button:hover{
+    background-color: #3e8e41;
+}
+
+input:disabled{
+    background-color: #f2f2f2;
+    color: #777;
+}
